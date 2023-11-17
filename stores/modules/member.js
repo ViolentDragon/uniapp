@@ -1,0 +1,1 @@
+"use strict";const e=require("../../common/vendor.js"),r=e.defineStore("member",(()=>{const r=e.ref();return{token:e=>{r.value.token=e},profile:r,setProfile:e=>{r.value=e},clearProfile:()=>{r.value=void 0}}}),{persist:!0});exports.useMemberStore=r;

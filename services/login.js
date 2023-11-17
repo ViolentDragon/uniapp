@@ -1,0 +1,1 @@
+"use strict";const t=require("../utils/http.js");exports.postLoginInfoService=e=>t.http({method:"POST",url:"/login/wxMin",data:e}),exports.postLoginSimpleService=e=>t.http({method:"POST",url:"/login/wxMin/simple",data:{phoneNumber:e}});

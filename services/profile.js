@@ -1,0 +1,1 @@
+"use strict";const e=require("../utils/http.js");exports.getProfileService=()=>e.http({method:"GET",url:"/member/profile"}),exports.putMemberProfileService=t=>e.http({method:"PUT",url:"/member/profile",data:t});

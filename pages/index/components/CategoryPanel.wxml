@@ -1,0 +1,1 @@
+<view class="category"><navigator wx:for="{{a}}" wx:for-item="category" wx:key="c" class="category-item" hover-class="none" url="/pages/index/index"><image class="icon" src="{{category.a}}"></image><text class="text">{{category.b}}</text></navigator></view>
